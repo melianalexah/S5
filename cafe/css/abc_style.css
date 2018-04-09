@@ -1,0 +1,65 @@
+body {
+
+	background-color: white;
+	font-family: helvetica-bold;
+}
+header {
+	position: relative;
+}
+
+h1 {
+	position: absolute;
+	justify-content: center;
+	z-index: 1;
+	font-family: helvetica-bold, sans-serif;
+	font-size: 72pt;	
+}
+
+a {
+	text-decoration-line: none;
+	color: black;
+	
+
+}
+
+a:hover{
+    color: dimgray;
+    background-color: none;
+    text-decoration: none;
+    padding: 20px;
+
+} 
+
+a:visited
+
+ul li {
+	display: inline;
+	padding: 140px	
+	
+
+}
+
+p,h2 {
+	color: white;
+	font-family: helvetica;
+}
+
+article{
+	text-align: center;	
+	width: 550px;
+    border: 25px black;
+    padding: 25px;
+    margin-left: 350px;
+    background-color: black
+
+}
+
+
+h3 {
+	color: black;
+	
+}
+
+footer {
+	 position: static;
+}

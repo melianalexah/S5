@@ -1,0 +1,66 @@
+body {
+
+	font-family: helvetica-bold;
+}
+header {
+	position: relative;
+
+}
+
+h1 {
+	position: absolute;
+	z-index: 1;
+	font-family: 'Anton', sans-serif;
+	font-size: 150pt;
+	color: white;
+	width: 95%;
+	text-align: center;
+}
+
+a {
+	text-decoration-line: none;
+	color: black;
+
+}
+
+a:hover, article {
+	background-color: black;
+}
+
+a:hover{
+    color: white;
+    padding: 20px;
+
+} 
+
+ul li {
+	display: inline;
+	padding: 120px
+
+}
+
+h2, p  {
+	font-family: helvetica-bold;
+	color: white;
+
+}
+
+article {
+	width: 650px;
+    border: 30px;
+    padding: 30px;
+    margin: 25px;
+}
+
+article.left {
+	float: left;
+}
+
+article.right {
+	float: right;
+}
+
+footer {
+	 position: static;
+	 color: yellow;
+}

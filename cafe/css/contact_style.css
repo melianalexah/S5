@@ -1,0 +1,69 @@
+body {
+
+	background-color: white;
+	font-family: helvetica-bold;
+}
+header {
+	position: relative;
+}
+
+h1 a{
+	position: absolute;
+	justify-content: center;
+	z-index: 1;
+	font-family: helvetica-bold, sans-serif;
+	font-size: 72pt;	
+}
+
+a {
+	text-decoration-line: none;
+	color: black;
+	
+
+}
+
+h1 a:hover{
+    color: dimgray;
+    background-color: none;
+    text-decoration: underline;
+    padding: 20px;
+
+
+} 
+
+ul li {
+	display: inline;
+	padding: 120px	
+	
+
+}
+
+p {
+	color: white;
+	font-family: helvetica;
+}
+
+article {
+	text-align: center;	
+	width: 550px;
+    border: 25px black;
+    padding: 25px;
+    margin-left: 350px;
+    background-color: black
+
+}
+
+h2 {
+	font-family: helvetica-bold;
+	color: white;
+
+}
+
+h3 {
+	color: black;
+	
+}
+
+footer {
+	 position: static;
+}

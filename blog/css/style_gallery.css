@@ -1,0 +1,40 @@
+body {
+    background-color: #FFC107;
+}
+header {    
+    width: 90%; 
+    height: 20%;
+}
+
+h1 a{
+    color: #388E3C;
+    font-size: 90pt; 
+    font-family: 'Limelight', cursive;
+    text-decoration: none;
+    width: 1000px;
+    text-align: left;
+
+  }
+
+h1 a:hover {
+    color: #FFA500;
+    text-decoration: none;
+} 
+
+h2 {
+    height: 20px; 
+    width:100px; 
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 15pt;
+    color: #283593;
+    padding-left: 670px;
+}
+
+ol li{
+    width: 1300px;
+}
+ 
+ img {
+    width: 619px;
+    height: 328px;
+ }
